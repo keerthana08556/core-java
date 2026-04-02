@@ -1,11 +1,28 @@
 class AmazonRunner {
 
-    public static void main(String[] args) {
+  public static void main(String[] arg) {
 
-        String user1 = Amazon.validateAndCreateAccount("chethana N",7795123462L,"chethu@gmail.com","chethu@123");
-        System.out.println(user1);
+    Amazon amazon = new Amazon();
 
-        String user2 = Amazon.validateAndCreateAccount("Keerthana N",7892694083L,"keerthi@gmail.com","keeru@123");
-        System.out.println(user2);
-    }
+    boolean login = amazon.login("Keerthana.Nagaraj", "keeru@123");
+    System.out.println(login);
+    
+    String result = amazon.login(7892694083L, 1234);
+    System.out.println(result);
+    
+    String msg = amazon.search("Mobile");
+    System.out.println(msg);
+	
+    msg = amazon.search("Mobile", "Samsung");
+    System.out.println(msg);
+    
+    msg = amazon.search("Mobile", "Samsung", 20000);
+    System.out.println(msg);
+
+    msg = amazon.search("Mobile", "Samsung", 20000, "Black");
+    System.out.println(msg);
+
+    msg = amazon.search("Mobile", "Samsung", 20000, "Black", "6GB");
+    System.out.println(msg);
+  }
 }
