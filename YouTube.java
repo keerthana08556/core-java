@@ -3,11 +3,19 @@ class YouTube{
   public String search(String movieName){
     System.out.println("invoking search movieName:"+movieName);
     String meassage=null;
-    if(meassage!=movieName){
+	
+	boolean islogin =login("Keerthana.Nagaraj","keeru@123");
+	if(islogin){
+		System.out.println("Login successfully");
+    if(meassage!=null){
 	  meassage="searched movie Name is available:"+movieName;
     }
+	}else{
+        meassage="Invalid UserName and Password";		
+	}
     return meassage;
   }
+  
   public String search(String movieName,String heroName){
     System.out.println("invoking search movieName:"+movieName+"and heroName:"+heroName);
     String meassage=null;
