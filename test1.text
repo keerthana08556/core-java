@@ -1,0 +1,39 @@
+what is java?
+ans:-Java is a high-level 
+-object-oriented programming language 
+-used to create software applications
+
+what is variable types of variable?
+ans:a variable is a name used to store data in a program. 
+  The value of the variable can change during program execute.
+ there are 4 types of variable:
+ 1.satatic variable-satatic is keyword is used to inside the method 
+ 2.instance variable-it is used to inside the class outside the methode
+ 3.local variable
+ 4.parameter variable
+ 
+ what is array?
+ ans:Array is  variable is used to store a multipel values in single variable.with based on index. 
+ 
+ what is method and its types?
+ans:a method is a block of code that performs a specific task.
+  there are 4 methods 
+1. Method with No Parameter and No Return Type
+2.Method with No Parameter but Return Type
+3.Method with Parameter but No Return Type
+4.Method with Parameter and Return Type
+ 
+ what is constructor?
+ ans:A constructor is a special method used to initialize an object when it is created.
+ 
+ explin how java file execute?
+ ans: Write program in .java file
+JVM executes the bytecode using java command
+ 
+ what is datatype and its type?
+ 
+ ans:Datatype means the type of data a variable can store.
+ 
+ 1.Primitive Datatypes-it is used to store a single values
+ 2.Non-Primitive Datatypes-it is used  to store a complex values
+ 
